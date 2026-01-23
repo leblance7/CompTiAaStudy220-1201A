@@ -1,0 +1,72 @@
+MDM (Mobile Device Management)
+        +Manage company-owned and user-owned mobile devices.
+                -BYOD - Bring your own devices.
+        +Centrlized management of the mobile devices.
+                - Specialized Functionality.
+        + Set poilices on apps, data, camera, settings, etc.
+                - Control the remote device.
+                -The entire device or a "partition".
+
+BYOD 
+        +Bring your own devie
+        +Employee wons the device.
+                - Need to meet the company's requirements.
+        + Difficult to secure.
+                - It's botha home deive and a work device.
+                - How is data protected?
+                - When a device is sold or traded in?
+
+COPE 
+        +Corporate Owned, Personally Enabled
+                -Company buys the device.
+                - Used as both a corpoprte device adn a personal
+                        device.
+        + Organoization keeps full control of the device.
+                - Similar to compay-owned laptops and desktops.
+        +INformation is protected using comporate policies.
+                - Informatin  cab be deleted at any time.
+        - CYOD - Choose Your Own Device
+                - Similar to COPE, but with the user' choice of
+MDM policy enforcement
+        _Corportate email configuration
+                - User does not need to configure anything.
+                o The MDM makes changes on the device.
+                o Account detials, server address, comunication method.
+        + Two factor authentication
+                - Require specific authentication types
+                -Biometrics, psuedo-random authentication app
+        + Corporate applications
+                - Allow or restict app installation
+                - Prevent unauthorizred app usage.
+
+Mobbile devie synchoronizxation
+        +Many settings are proconfiured
+                -Telephone / Text messagiing
+        +Email
+                _Everyone handles email services differently.
+                -Corporate emil configfurations can vary.
+        + Data synchronization
+                - Based on data rates and speeds
+                - Important for backup and recovery.
+
+Synchronizing Data
+        +Data Typer
+                -Calendar
+                - Contact
+        +Data caps and transfer costs
+                - May have a significant consequences
+                - Celluar / Mobile vs 802.11
+        + Verify data restrictions with thw wireless carrier.
+                - Get it in writting.
+        + Enable or disbale network connections
+                - Control the use fo celluar downloads.
+
+Business appliocations
+        + Mail, couild stortage, etc/
+                - Many different services available.
+        + Authenticate
+                - Username, password
+        + Select the items to synchronize
+                - Changes will appear  on the mobile device.
+        + Same proces for other serices.
+                - Often built-in to the mobile device. 
