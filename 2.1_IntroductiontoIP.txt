@@ -1,0 +1,115 @@
+Series of Moving Vans
+        +Efficiently move large amounts of data.
+                - Use a shipping truck.
+        + The network of topology Protocol(IP).
+                -Roads designed for this truck.
+        + The boxes hold your data
+                - Bocrd of TCP and UDP. + Inside the boxes are more things. - Application information. IP - Internet Protocol
+[__ Ethernet Header => Ethernet Payload <= Ethernet Trailer__]
+[__ Ethernet Header => IP ||| IP Payload <= Ethernet Trailer__]
+[__Ethernet Header => IP ||| TCP ||| TCP Paylaod <= Ethernet
+        Trailer__]
+[__ Ethernet Header => IP ||| TCP ||| HTTP Data <= Ethernet 
+        Trailer__]
+        + Internet Protocol Nesting order.
+        - Ethernet Header #1 [ IP(IP Payload) #2 [TCP 
+        (TCP Payload)[ TCP HTTP data ]]] Ethernet Trailer.
+
+TCP and UDP
+        + Transported inside of IP.     
+                - Encapsulated by the IP protocol.
+        + Two ways to move data from place to place.
+                - Different features for different applications.
+        + OSI Layer 4
+                - The Transport layer.
+        + Multiplexing
+                - Use many different appialications.
+                - TCP and UDP.
+TCP - Transmission Control Protocol
+        + Connectoin - oriented.
+                - A formal connection setup and close.
+        + A "Reliable" delivery
+                - Recovery from errors.
+                - Can manage out-of-order messages or
+                        retransmissions.
+        + Flow control
+                - Receiver can manage how much data is sent.
+                *Computer => TCP Data => Server*
+                *Computer <= TCP ACK <= Server*
+UDP - User Datagram Protocol
+        + Connectionless
+                - No formal open or close the connection.
+        + "Unreliable" delivery
+                - No error recovery
+                - No reordering of data of retransmissions.
+        + No Flow Control
+                - Sender determines the amount of data
+                        transmitted.
+        *Computer ==> UDP Data == > Server*
+Why would you ever use UDP?
+        + Real - time communication
+                - There's no way to stope and resend the data.
+                - Time doesn't stop for your network.
+                - Ex. Videocalling.
+        +Connectionless Protocols
+                - DHCP (Dynamic Host Configuration protocol)
+                - TFTP (Trivial FILE Transfer protocol)
+        + The Data may not get through
+                - Applciation keeps track and decides what
+                        to do.
+Communication using TCP
+        + Connection-oriented protocls prefer a "return Receipt"
+               -HTTPS(HyperText Transfer Protocol Secure)
+               - SSH(Secure Shell).
+        +Applicatoin doesn't worry anout out of order frames
+                or missing data.
+                -TCP handles all of the communication overhead.
+                -Application has one job.
+Speedy Delivery
+        +IP delivery truck driver from one (IP) Address to
+                (IP) Address.
+                - Every house has IP address, every computer has an IP address.
+        + Boxes arrive at the housr / IP address
+                -Where do the boxes go?
+                -Each box has a a room name.
+        + Port is written on the outside of the box.
+                -Drop the box into the right room.
+                EX. Apartment numbers in a complex.
+Lots of Ports
+        +IPV4 sockets
+                -Server IP address, protocol, server application port number.
+                - Client Ip address, protocl mclient port number.
+        + Non-ephemeral ports - permanant port numbers
+                - Ports 0 through 1023.
+                - Usually on a server or service.
+        + Ephemerial ports - temporary port bumbers
+                - Ports 1024 through 65535
+                - Determined in real time by the client.
+Port Numbers
+        + TCP and UDP ports can be any between 0 and 65535.
+        + Most Servers(services) use non-epehhmeral(permant) port
+                numbers.
+                - Isn't always the case, just a number.
+        + Port numbers are for communication, not security.
+        + Service port numbers need to be "well known"/
+        + TCP port numbers aren;t he same as UDP port numbers.
+Ports on the Network
+        + Web server - tcp/80
+        + VoIP server udp/5004
+        + Email servree - tcp/143
+        Client, IP Address: 10.0.0.1 => <= Server, 
+                IP Address 10.0.0.2
+                EH => IP | TCP | HTTP data <= ET 
+                EH => IP | UDP | VoIP data <= ET
+                EH => IP | TCP | Email data <= ET
+                - Each of the IP will have the same Source
+                        IP 10.0.0.1 and Destination IP 10.0.0.2
+                
+        Source IP: 10.0.0.1 | TCP Source Port = 3000 | HTTP Data
+        Dest IP 10.0.2  | TCP Desp Port = 80         | HTTP Data
+        ========================================================
+        . . . UDP Source Port = 7100 | VoIP data
+        . . . UDP Desp Port = 5004   | VoIP data
+        ========================================================= 
+        . . . TCP Source Port = 4407 | Email Data
+        . . . TCP Desp Port = 143    | 143

@@ -1,0 +1,109 @@
+Common Ports
+
+Port Numbers
+        + Well-known port numbers
+                -Client and Server must match.
+        +Important for firewall rules.
+                - Port-based security
+        + A bit of rote memorization
+                -Becomes second nature.
+        + Make sure to know oprt number, protocol, and how th porotcol is used.
+
+FTP - FIle Transfer Protocol
+        + tcp/20 (active mode date)
+        + tcp/32 (control)
+                -transfer between file systems.
+        +auuthenitcaes with a username and password
+                - Some systems use a generic/anonymous login.
+        + Full-featured functionality.
+                - List, add, delete, etc.
+SSH - Secure Shell
+        + Encrypted communication link - tcp/22
+        + Looks and acts the same as [Telnet] protocol
+                - However Telnet does not provide encryption**
+Telnet
+        +Telnet - Telecommunication Network
+                -tcp/22
+        +Login to devices remotely
+                
+        + In-the-clear-communication
+                -Not the best choice for production systems. 
+                        As all communication is visible.
+SMT - Simple Mail Transfer Protocol
+        +SMTP 
+                - Server to server email tranfer.
+                - tcp/25
+        + Also used to send mail from a device or small manager.
+                - Commonly used to configute mobile devices and email.
+        + Other protocol are used for clients to recieve email. o               -IMAP, POP3
+DNS - Domain Name System
+        + Converts namers to IP addresses - udp/53
+                -Ex. www.professormesser.com = 169.159.246.164
+        ** IP numerical address are almost never memorized.
+                ** => However, the website usually is.
+        + Critial resources
+                - Usually multiple Dns servers are in production.
+DHCP - Dynmaic Host Configuration Protcol
+        +Automated confiuration of IP address, 
+         subnaet mask and other options.
+                - udp/67, udp/68
+        +Require aDHCP server   
+                - Server, appliance, integrsatedinto a SOHO 
+                        router etc.
+        +Dynamic / pooled
+                -IP addresses are assigned in real0time from 
+                        a pool.
+                - Each system is given a lease and must renew 
+                        at set intervals
+        +DHCP reservation
+                -Addresses are assigned ny MAC addressin the DHCP
+                        Server.
+                - Managed and accessed by one location.
+HTTP and HTTPS
+        + Hypertest Transfer Protocol
+                - Communication in the browser.
+                - And by other applications.
+        + IN the clear or encraypted
+                - Supported ny nearly all web servers and clients.
+        Protocol: HTTP | Port: tcp/80 | Name | Hypertext Transfer Protocol | Descruption: Web server communication.
+        Protocol: HTTPS | Port tcp/80 | Name: Hypertext Transfer
+                Protocol Secure | Description: Web server 
+                communication with encryption
+
+POP3/IMAP
+        +Recieve emails from an email server.
+                - Autheniticate anda tranfer.
+        +POP3 - Post Office Protocol version 3.
+                - tcp/110       
+                - Basic mail transfer functionality
+       _IMAP4 - Internet message Access Protocol v4
+                - tcp/143
+                - INclues management of email inboc from 
+                        multiple clients.
+SMB - Server Messgae block
+        +protcol use ny Microsoft Windows       
+                - File sharing, printer sharing
+                - Also called CIFS(Common Internet File System).
+        +using NEtBIOS over TCP/IP (NetBT)
+                -udp/137 - NetBIOS name serives (nbname)
+                - tcp/139 - NETBIOS serssion service (nbsession)
+        + Direct over tcp/445 (NetBIOS-less)
+                - Direct SMB communication over tCP
+                        withoud the NetBIOS transport.
+LDAP / LDAPS
+        + LDAP (Lightweight Directoru Access Protocol)
+                -tcp/389
+                -Strore and retrive information in a network
+                        directory.
+                - Commonly used in Microsoft Active Directory.
+        [Root: [~/Messor Studios: [/Production(CU) : /Jack(CN),
+                /Daniel(CN), [/Support(OU): ], [/Engineering(OU): 
+                /Teal'c(CN), /Tech Docs(CN), /Sam(CN).
+        + O = Organizational
+                OU = Organicational Unit
+                CN = Common Name.
+RDP - Remote Desktio Protocol
+        + Share a desktop from a remote location over tcp/3389
+        +Remote esktop Services on many Windows versions.
+        + Clients for Windows macOS, Linux, Unix, iPhone, Android
+                , and others.
