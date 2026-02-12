@@ -1,0 +1,156 @@
+Domain Name System
+        convert Name to IP addresses.
+        And vice versa.
+Distrbuted naming system.
+        + The load is balanced across many different servers.
+                - Usually managed by the ISP or enterpirse 
+                        IT depratertment
+                - A criticial resource.
+
+Centralized storage of documents spreadsheets, videos
+        , structures, and any other files
+                - A fileshare.
+        + Standard system of file management.
+                -SMB (Server message Block), Apple Fillinf 
+                        Protocol (AFP), etc.
+        + Front-end hides the protocol.
+                - Copy, delete, rename, etc.
+Print Server
+        +connect to a printer to the network
+                - PRofive priinting servies for all network
+                devices.
+        + May be software in a computer. 
+                - Computer is connected to the printer.
+        + May be built into the printer.
+                - Network adapter and software.
+        + Uses standard printing protocols.
+                -SMB (Server Message Block),
+                -IPP (Internet printing protocol),
+                -LPD (Line Printer Deamon).
+Mail Server
+        + Store your incoming mail.
+                -Send your outgoing mail.
+        +Usally managed nythe ISP or the etnerprise IT Department.
+                -Complex set of requirements.
+        +Usually one of the most important servcives.
+                -24 x 7 support.
+Syslog
+        +Statnder for message logging.
+                - Diverse sustem, consildated log
+        + Isially a central loffing reciever
+                -Integratedin to a SIEM(Secyrity Information and 
+                        Eveent Manager).
+                +You're going to need alot of disk space.
+                        - no, more. More than that lol.
+Web Server
+        + Respond to browser request
+                - Using standard weeb beeowsinf protocols - HTTP
+                        /HTTPS.
+                - Pages are built with HTML, HTML5.
+        +Web pages are stored on the server.
+                - Downloaded to the browser.
+                - Static pages or bilt dynamically in real-time.
+
+Authentication Server
+        + Authentication, Authorization, and Accounting (AAA)
+                server.
+                - The login server.
+        +Login authentication to resorces.
+                - Centralized mangement.
+        + Almost always an enterprise service.
+                - Not required on a home network.
+        +usually a set reduddant servers.
+                _ always available
+                - Extremely important service.
+Database servers
+        + Database table storage
+                - Save informatoinin coumns and rows
+                - SImilar to a spreadssheet.
+        + Relational Database
+                - Link table together. 
+                -These linkes are relatioships.
+                - Flexible and fast.
+        +Structed Query lanuage (SQL).
+                -Access data using a standard lanuage.
+                - Microsoft SQL server, MySQL, etc.
+NTP server.
+        -THe time of day is mor importnat than you might think.
+        ++ Network Time protocol.
+                *Encryption, logins, bakcups, log timestamps.
+                * Everything needs to work from the same clock.
+        +NTP server
+                - Responds to time rewust fro NTP clients.
+        +NTp client 
+                +Request tim eupdates from NTP server.
+                        -Daily synchronization is common.
+Spam gateways
+        + Unsolicated email
+                - Stop it at teh dateway before it reaches the
+                        user.
+                - On-site or cloud-based.
+All-in-one senurity appilance
+        +Next-generation firewall
+                Unified Threat Management(UTM) /  WEb secuirty 
+                gateway
+                - URl filter / COntent inspection.
+                - Malaware inspection
+                - Spam filter.
+                - CUS/ DSU
+                - Router, switch
+                -Firewall
+                -IDS / IPS
+                - Bandwidth shaper
+                - VPN endpoint.
+Load balancer
+        +distrubute the load
+                - Multiple server
+                - INvisible to the end-user.
+        +Large-scale implementations.
+                - Wev-server farms, database farm.
+        +fault tolerance
+                -Server outages have no effect.
+                - Very fast convergence.
+Proxy Server
+        + An intermediate server
+                - Cliement makes the request to the proxy
+                - Proxy perforoms the actual request.
+                - procy rpovies the results back to the client.
+         + Useful features
+                -Access control, caching,
+                        URL filtering, content scanning.
+
+SCADE / ICS
+        +Supervisory COntrol and Data Acquistion System
+                - Large-scale, mult-site Indistrial COntrol Systems(ICSO.
+        + PC manages equipment
+                -  power generation, refiniing, manfacturing
+                        equipment.
+                - Facilities,  industrail, energy, logisitics.
+        +distribued control systems.
+                - Real-time information. 
+                - System control.
+        +requires extensive segmentation.
+                - No access from the outside.
+Legacy and embedded systems
+        +Legacy systems
+                - Another expression for "oldt".
+                - may also be important*
+                - Learning how to manage and maintain legacy 
+                        system may be just as important.
+        +Embedded systems
+                - Purpose -built device
+                - Bot usual to have direct access to the 
+                        opertation system.
+                - Alarm system, door secuirty, time card system.
+IoT( INternet of Things) devices
+        + Appliances: 
+                - Refrgertors.
+        +Smart devices: 
+                - smart spearks resond to voice commands.
+        + Air control: 
+                - Thermostats, temperature control. 
+        + Access 
+                -Smart orrbells, door and windows. 
+        ** +May require a sefmented network. 
+                        - LImit any security breaches.
+                
