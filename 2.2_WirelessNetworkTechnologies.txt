@@ -1,0 +1,57 @@
+Wireless technologies
+        + IEEE standards
+                -Insitiue of electrail and Elcrionics Engineers
+                - 802.11 committee
+                - Everyone follows these standards.
+        + Also reference as a generation.
+                - 802.11 is Wi- fi 5
+                - 802.11ax is wi-fi 6 and Wi - Fi 6e (extended).
+                - 802.11be is Wi - fi 7
+                - Future version will increment accordingly.
+802.11 technologies     
+        + Frequencies 2.4Ghz, 5Ghz, 6GHz
+                - Sometimes a combination.
+        + Channels
+                - Froups of frwuencies, numbered by the IEEE
+                - Frequencies, nare managed ny governing entities.
+                - Using non-overlapping channels would be optimal.
+        + Bandwidth
+                - Amount of frequency in use
+                - 20 MHz, 40 MHz, 80 MHz, 160 MHz etc.
+Band selection and bandwidth:
+        2.4 ghz apecitrum for 802.11 North America
+                [][][]
+        5 ghz spectrum fo r802.11 North America 
+                [][][][][][][][] 20mhz
+                [ ][ ][ ][ ][ ] 40 mhz
+                [      ][      ] 80 mhz
+                [              ] 160mhz
+        6ghz   
+                - Goes up to 160 and 320 GHz bandwidth
+Bluetooth
+        + Removes the wires
+                - Headsets speakers, Keyboards / Mice
+        + Uses the 2.4 GHz range
+                - Unlincsed ISM
+                        (Industiral, Scientifiic and Medical) band.
+                - Same as 802.11
+        +Short - range
+                - Most consumer devices operate to about 10 meters
+RFID (Radio -frequency identification)
+        -everywhere
+                - access badhes 
+                -inventory . assembl line tracking
+                -pet / animal identification
+        + Radar technology
+                - Radio energy transmitted into the tag.
+                - RF power the tag, ID is transmitted back
+                -Bidireftional communication
+                - some tag formats can be active / powered
+NFC (Near Field communication_
+        + Two - way wirelss communication
+                - BUilds on RFID , which is mostlu one - way.
+        + Payment systmes 
+                - major credit cards
+                - Online wallets
+        +Bootstrap for other wireless
+                -NFC helps with Bluetooth pairing.
