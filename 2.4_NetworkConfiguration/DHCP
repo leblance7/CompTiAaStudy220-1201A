@@ -1,0 +1,61 @@
+DCHP
+        +IPv4 address configuration used to be manual.
+                -IP address, subnet mask ,gateway, Dan servers, Ntpo servers.
+
+        + Needed a more automtatic method.
+                - Scale to thousands of systems.        
+                - Hands-off IP configurations.
+        + Dynamic Host Configuration Protocol (DHCP)   
+                - Initially relased in 1997, updated through the years.
+                -Provides automatic address / IP configration.
+                - Used for almost all devices.
+DORA
+        + Four - step process
+                -Discover
+                -Offer
+                -Request
+                -Acknowledge
+Step 1: Discover
+        +Sam --- switch 1 --- /> DHCP Server .99 ..\ g0/0, .1 router1 
+        + DHCP offer sent from 
+        DHCP Discover sent from Sam (0.0.0.0:udp/68) to 255.255.255.255:udp/67) ## Discovewr
+        DHCP Server 10.10.10.99:udp/67) to 255.255.255.255:udp/68 ##Offer
+        DHCP Server 0,0,0,0/udp:68) to 255.255.255.255:udp/67) ##Request
+        DHCP Acknowledgment sent from 
+        DCHP Server (10.10.10.99:udp/67) to 255.255.255.255:udp/68
+5:11
+
+
+DHCP scopes, 5:37
+        + Configured on the DHCP server
+        + IP address range
+                - And exluded range.
+        +Subnet mask
+        +Lease durations
+        +Other scope otpions
+                -dns server default gateway void server gateway
+6:33    o
+DHCP pools
+Grouping of IP addresse4s
+        - each subnmet has its own scope
+                -123.123.1.0/21
+                -123.123.1.0/21
+                -123.123.1.0/21
+        + A scope is generally a single continfous pol; of IP addresses
+        DHCP can be made exl;usive3 inside a single scope
+        DHCP can be made exl;usive3 inside a single scope
+7:53 Server Manager
+
+8:24
+Address reservation
+        +address reseravation
+                - Administratively configured   
+                + any changes made with ip address must manually be changed
+                        on each device.**
+                Table of MAC address.
+                        - each MAC address has a matching IP address
+                Other names
+                        - Static DHCP Assignment
+                        - Static DHCP 
+                        - IP Reservation
+

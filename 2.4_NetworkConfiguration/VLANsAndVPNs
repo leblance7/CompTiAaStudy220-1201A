@@ -1,0 +1,43 @@
+LAN Local area networks
+                - A group of devices in the smae broadcastr domain
+                [] \  |  / []
+                  [ ] | [ ] 
+                [] /  |  \ []
+Virtual LANs
+        + A group Local Area Networks1
+                - A group of devies in the same broadcast domain.
+               [[ 
+                 [][][][][][]           Connector between the two.
+                              ]]
+Configuring VLANs 3:15
+        +Local Area Networks
+                - A group of devices in the same broadcastr domain.
+                VLAN 1: Gate room
+                VLAN 2: Dialing room
+                VLAN 3: Infirmary
+                [------ =====   ===== ________]
+                [-----------]   [______________]
+
+VPNs 5:02
+        + Virutal Private Networks
+                - Encrypted (private) data rraversing a public network.
+
+        + Concentrator
+                - Encryption / decryption accress device
+                - Often integrated into a firewall
+        + Many deployment options
+                - Specialized cryptiogaphi hardware.
+                - Software-based optioins available.
+
+Client-to-site VPN
+        -On-demand access from a remote device.
+                -Software connects to a VPN concentrator.
+        + Some software can be confited as always-on.
+        **Corporate Netwqork
+Site-to-Site VPN      
+        +Always-on
+                -Or almost alway 
+        +Firewalls often act as VPN concentrators.
+                -probably already have firewalls in place.
+        **Corp ntwrk ----- Rotr/frwl VPN COncntrtr ---- Intrnt/FrWl.
+                VPN concntrtr ---- rmot site.

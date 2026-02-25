@@ -1,0 +1,160 @@
+DNS COnfiguration - CompTIA A+ 220-1201 - 2.4
+
+Domain Name System
+        +Translate human-readable names into computer - readable IP
+                addresses.
+                - YO8u only need to remeber ww.wprofessormesser.com.
+        + Hierarchial
+                - Follow the path.
+        + Distrubted database
+                - Many DNS servers.
+                -0 13 root server clusters (Over 1,00 actual servers).
+                - Hundreds of genertic top-level domains (gTLDs)
+                        -.com ,.org, .net, etc.
+                - Over 274 country code top-level domains (ccTLDs) 
+                        -.us, .ca, .uk, .etc.
+The DNS hierarchy
+        [ . ]
+                [.com] [.net] [.edu][.org] #Top-Level Domains(TLDs)
+                   |
+                [.professormesser]
+                   |
+                ------------------------------------- 
+                |       |       |        |     |   
+                [www][live]  [mail]  [east] [west] 
+DNS lookup
+        +dig commmand
+        leblance7@E10 ~ dig www.professormesser.com
+        ;; ANSWER SECTION 
+        www.professormesser.com 300 IN A 104.22.72.108
+
+
+        ns lookup www.professormessor.com
+
+DNS records
+        + Resource Records (RR)
+                -Database records of domains name revices.
+
+        +Over 30 record types
+                -IP addresses, certificates, host ailas names, etc.
+        + These are important and criticaL configurations.
+                ** Incorrect changes may make website or device online 
+                        unreachable. **
+                - Make sure to check your settings, backupo, and test!
+
+DNS Configuration
+        +SOA recorr
+        DNS Configuration
+                +SOA recorrd
+        Adding a list of records.
+
+Address records (A) (AAAA)
+        +Defines the IP address of a ahost.
+                - This is the most popuylar query
+        + A records are fro the IPV4 addresses
+                - Modify the A record to change the host name to IP address resolution.
+
+        + AAAA records are for the IPV6 addressses
+                - the smae Dns server, different records.
+
+A record: IPV4 
+        Create a DNS record
+                + Type :A
+                + Host Name : www
+                + IP address: 162.159.246,164
+                + TTL: 15 minutes for person to have access to a record.
+                        - Otherwise a refresh is required to make any
+                                changes to the record.
+
+AAAA Record IPV6
+        HostName: steam
+        IP ADDRESS: ib;2121:18cd
+        TTL: default 15 mintues.
+
+Canonical name records (CNAME)
+        + A name is an alias of another, cononical name.
+                - One physical server, multiple servies.
+                ; Alias (Canioncal name)
+                chat    IN CNAME mail.example.com
+                ftp     IN CNAME mail.example.com      
+                www     IN CNAME mail.example.com
+
+Mail echangver record (MX)
+        +Determines the host name f or the mail server
+                - This isn;'t an IP address: its a name.
+        ; THis is the mail-exchanger. you can list more than one (if applicable)m with the interger field indicating priority (lowest being the priority number)
+        IN MX mail.example.com
+
+        ; Provies optional information on the mainchin etype & operating
+        ; used for the server
+        IN HINFOLINUX
+        
+        ; A list of machine names and addresses.
+        jack.example.com IN A 123.12.41.40      ; Windows 10
+        mail.example.com IN A 123.12.41.41      ; Linux (main server)
+        sam.example.com IN A 123.12.41.42       ; Windows 11
+
+MX record 
+        Edit DNS Record
+                -Hostname: mail
+                Target Name; mail.hovver.vom.cust.hostedemail.com
+                - TTL: 15 minutes 
+
+Text Records (TXT) 
+        + Human - readable text information 
+                - Useful public information
+                - Was originally designed for informal information.
+        + Can be used for vertification purposed
+                - if you have access to the DNS then you must be the
+                        adminstrator fo the domain name.
+        + Communl used for the email security
+                - External emal servers validate information from
+                        your DNS.
+Viewing TXT records with dig
+        * dig professormesser.com txt
+Viewing TXT records with nslookup
+        * nslookup -type=txt google.com
+        
+DOmain Keys Identifed Mail (DKIM)
+        + Digitally sign a domain's oiut going mail.
+                -Validated by mail servers, no tusually seen by the end user.
+                - The publix key is in the DKIM TXT record
+                ;DKIM TXT records
+                ; owner class ttl TXT "attribute-name=attribute value"
+
+Adding an DKIM TX record 
+        + A TXT record is a bit of text sroted in the DNS that is most
+                commmonly used ny INternet services for things like
+                verification of ownership of a domain.
+                - Hostname: 15176804226.professormessor._domainkey
+                - Content: v=DKIM11 t=s;
+
+Sender Policy Framework (SPF)
+        + SPF protocol
+                - A list fo all sercers aUTHOREIZED TO SEND emails for
+                        this domain.
+                - Prevent mail spoofiing
+                - Mail servers performa check if incoming mail really did                       come from an authorized host.
+        ;SPF TXT records
+        ; owner class ttl TXT "attribute-name=attribalee value"
+                professormesser.com.300 IN TXT "v=spf1:mailgun.org ~all'
+
+Adding an SPF TXT
+
+DMARC 
+        +Domain-based Message Authentication Reporting, and Conformacne
+                (DMARC).
+                -Prevent unauthorized email use (spoofing).
+                - An extension of SPF and DKIM
+
+        + You decide what wxternal email servers shoudl dow with emails thjat dont vaildate through spf or dkim.
+                - POliocy thnat written into a DMARC    
+                - Accept all, send to spam, or reject the email.
+                - Compliance reports can be sent to the email 
+                        adminstrtor.
+
+Adding a DMARX TXT record
+        + Create a DNS record
+                -Hostname : @
+                - Content: v=DAMRC
+                TTL = 15 mintues
