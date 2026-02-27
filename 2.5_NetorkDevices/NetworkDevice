@@ -1,0 +1,137 @@
+NETWORK DEVICES
+Network Devices
+        + Many different devices and componentts
+                - All have different roles.
+        + Some of these functions are combnined together.
+                - Wireless router / switch / and firewall
+        + Compare different devices.
+                - Understand when they should be used.
+Routers
+        + Routes traffic between IP subnets.
+                - Makes fowarding decisions based on IP address.
+                - Routers insdie of switches somwtiems called "
+                        3 layer switches".
+        + Often connect diverse network types.
+                -LAN, WAN , copper, fiber.
+Switches
+        + Bridging done in hardware
+                - Application - specific integrated circuit (ASIC)
+                - Fowards traffic based on daate link and address.
+        + Many portsd and features.
+                - The core of an enterprise nertwork.
+                - May provide Power over Ethernet (PoE).
+        + Multilayer switch
+                - Includes routing functionality.
+Unmanaged switches
+        + Very few configuration options.
+                - Plug and play.
+        + Fixed congfigiration
+                - No VLANs
+        + Very little integration with other devices.
+                - No management protocols.
+        + Low price point
+                -Simple is less expensive.
+Managed switches
+        + VLAN support
+                - Interconnected with other switches via 802.1Q
+        + Traffic prioritization
+                - Voice traffic gets a higer priority,
+        + Redundancy support
+                - Maintain uptime if a switch fails.
+        + Port mirroring
+                -Capture packets.
+        + External Management
+                - Simplere Network Management P{rotocol (SNMP).
+
+Access point
+        + Not a wireless router
+                - A wireless router is a router and an access point in a                                sinlge device.
+        + An access point is a bridge.
+                - Extends thewired network onto the  wireless network.
+                - Makes fowarding decisions based on MAC address.
+Cable Infrastructure
+        - The series of which full networking devices are connected to 
+                one another.
+        - Patch Panel.
+         + Connectivity between switches and VLANS
+Patch Panels
+        + Combination fo punch-down blcoks and RJ-45 connectors.
+        + Runs from desks are made once.        
+                - Permanaetly punched down to patch panel.
+        +Patch Panel to swtich can be easily changed.
+                - No special tools.
+                - Use exisiting cables.
+Firewalls
+        + Filters traffic by [port number.]
+                - OSI layer 4 (TCP/UDP)
+                - Some firewalls are based on the application.
+        + Can encryupt trraffic into/oiut of the network
+                - Protect y ouirt traffic between sites.
+        + can proxy your traffic
+                - A common secuirty technique.
+        + Most firewalls cab be layuer 3 devices (routers).
+                -USually sits on the infress/egress of the network.
+Power over ethernet(PoE)
+        + Powered provided on an Ethernet cable
+                - One wire for both netowrk and elctirciy
+                -Phpone cameras, wireslesss access points.
+                - Useful in difficult-to-power-areas.
+        + Power provided at the switch
+                -Built-in power -Endspans
+                - In-line power injector -Midspans.
+         + PoE switch
+                -Power over ethernet
+PoE, PoE+, PoE++
+        + PoE
+                -The original PoE specification.
+                -The original PoE specification,
+                15.4 watts DC power, 350 mA max current.
+        + PoE+
+                -25.5 watts DC power, 600 mA mac current
+        +PoE++
+                51, (Type 3),  600 mA max current
+                - 71.3 W (Type 4), 960 mA max current
+                -PoE with 10GBASE-T
+        + COmapre the device with the switch support.
+                -PoE+ won't power a PoE++ device.
+Cable Modem
+        +Broadbrand 
+                -Tranmission across myltiple frequencies
+                - Different  traffic types.
+        +Data on the 'cable' network
+                -DOCSIS
+                        (Data ove cvacble sericve interface specification)
+        +HIgh-speed netowrking
+                - Speeds up to 1 Gigabit/s are common..
+        +Multiple services.
+                -Data, voice, video.
+DSL modem
+        +Digitial Subscriber Line
+                -Uses telephones lines
+        + Download speed is fster htan the upload speed (asymmetric)
+                - 200Mbit/s downstream / 20Mbit/s upstream are common.
+                - ~10,000 foot limitation from the central office(CO)
+                - Faster speeds may be possinle if closer to the CO(Central Office.).
+ONT
+        + Optical netowrk terminal
+                - Fiber to the premises
+        + Connect to the ISP fiber network to the copper network
+                -Dewmaraction point (demarc) in the data center.
+                - Terminal box on th e side of the building.
+        + Line of responsibility
+                - One side of the bos is the ISP
+                - Other side of the box is your network.
+Network Interface Card (NIC)
+        + FUndament Network Device
+                -Every device on the network has a NIC
+                -COmputer, servers, printer, routers, switches, phones, tablets,
+                        cameras, etc.
+                + Specific to the network type.
+                        _Ethernet, WAN, wireless, etc.
+                + Often built-in to the motherboard.
+                        - Or added as an expansion card.
+                + Contains the hardware address.
+                        - Media Access Control (MAC) address.
+                        - A unique hardware desigination.
+
+
