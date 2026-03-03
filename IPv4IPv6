@@ -1,0 +1,52 @@
+IP addressing
+        IPv4 is the primary protocol for everything we do.
+                - Included in almost all cnofigurations.
+        IPv6 is now part of all major operation systems,
+                - And the backbone of our Internet infrastructure.
+Ipv4 address
+        + Internet Protocol version 4
+                -OSI Layer 3 address
+        + Since one yte is 8 bits, the maxium decimal balue for each byte is 255.
+        8 bits = 1 byte = 1 octlet
+        192    . 168    .    1    .  131 
+        11000000. 10101000. 00000001. 10000011
+        32 bits = 4 bytes
+Private IP address ranges
+        + Largely private IP address ranges
+                - Properly design and scale large networks.
+        + Private IP addresses are not Intenet-routable
+                - But can be routed internally
+                - Use Nat for erverything else.
+        + Defined IN RFC 1918 
+                - Request for Comment
+Public vs. private IP addresses
+        +RFC 1918 private IP addresses
+        IP address reange | Number of addresses | Classful descri
+        10.0.0.0-
+        10.255.255.255| 16,755,216 | 10.0.0.0/8 (255.0.0.0)
+                                    Largest CIDR block (subnetMask
+                                    Host ID size : 24 bits 
+        172.16.0.0-
+        172.31.255.255 | 1,048,576 | 16 contiguous classs Cs | 
+        172.16.0.0/12(255.240.0.0_) | 20 bits
+        198.168.0.0 -
+        192.168.255.255 65,536 | 256 contigousus class Cs | 
+        182,168.0.0/16 (255.255.0.0) | 16 bits
+IPv6 addresses
+        + Internet Protocol v6 -128-bit address
+        (340 undecillion).
+        - 6.8 billion people could have 5,000,00000000000000000000000
+        fe80::5d18::652::cffd:8f52
+        fe80:0000:0000:0000:5d18:0652:cffd:8f52
+        fe80            :   0000        :       0000    :
+        1111111010000000:000000000000000:000000000000000:
+            16 bits     = 2 bytes       : 2 octlets
+        |________________________________________________ . . . 
+                        128 bits = 16 bytes
+        +Displayed in Hexidecimal.
+        + Your DNS is very important!
+        +First 64 bits is generally network prefix (/64)
+        + Last 64 bits then the host netowrk address.
+        + Your DNS is very important!
+        +First 64 bits is generally network prefix (/64)
+        + Last 64 bits then the host netowrk address
