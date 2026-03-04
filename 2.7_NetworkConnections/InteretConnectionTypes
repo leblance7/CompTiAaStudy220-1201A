@@ -1,0 +1,63 @@
+Internet Connection Types
+Satellite networking
+        + Communication to a satellite
+                - Non-terrestrial communication.
+        + High cost relative to terrestrial networking
+                -100Mbit/s down, 5Mbit/s are common
+                -Remote sites, diifficult-to-netowrk sites
+        +Not alwasy a perfect option
+                - line of sight , rain fade.
+        + Relatively high latency
+                + Some systems have 250ms up, and 250 ms down.
+                -Starlink adversiters 25 tp 60 ms.
+Fiber  
+        +High speed data communication
+                -Frequenices of light
+        + Higher installation cost thatn copper
+                -Eqipment is more costly
+                - More difficult to repair
+                        -Communicate overlondf distances
+        + Large installtion in The WAN core
+                - Support very high data rates
+                - SONET, wavelength division multiplexing
+        + Fiber has apperated at the premises
+                - Business and home use.
+Cable   
+        +Broadband 
+                - Transmission across multiple frequnecies
+                - Diffent traffic types
+        + Data on the 'cable' network
+                -DOCSIS(Data Over Cable Serice Interface Specification).
+        + HIgh speed networking
+                -50Mbit/s through 1,000+ Mbit/s are common.
+        + Multiple servcies
+                - Data, voice , video
+DSL
+        + ADSL( Asymmeertic Digital SUbscriuber LIne)
+                - Users telephjone lines
+        + Download speed is faster tham than the upload speed(asym).
+                -200Mbit/s downstram / 20 Mbit/s upstream are common.
+                - ~10,000 foot limitation from the centrral office (CO).
+                - Faster speeds may be possible if closer to the CO.
+Celluar Networksa
+        +moblile devices
+                - "Cell" phones
+        + Separate l;and into 'cells
+                _ Antennea covers a cell with certian frequencies.
+        + Tethering
+                -Turn your phone into a wireless router
+        + Mobile hotspot
+                - Standalone devices.
+                - Use your phone for other things.
+WISP
+        +Wireles INternet Serice Provider
+                - Teereestrial internet access using wireless
+        + Connect rural or remote locations
+                -Internet acces for everyone
+        + Many differen6t deployment technologies
+                -Meshed 802.11
+                - 5G home internet 
+                - Propretary wireless
+        + Need an outdorr antenna
+                - Speeds can ranged from ~ 10 tp 1,000 megabits per
+                        second.

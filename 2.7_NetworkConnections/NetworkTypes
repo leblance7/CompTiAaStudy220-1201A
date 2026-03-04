@@ -1,0 +1,52 @@
+LAN
+        + Local Area Network
+                - Local is relative
+        + A building or group of buildings
+                - High speed connectivity
+        +Ethernet and 802.11 wireless
+                - Any slower and it isn't local.
+WAN 
+        + Wide area network 
+                - Spanning the globe
+        + Generally connects LANs across a distance
+                - Generally much slowers thant he LAN
+        + Many different WAN technologies
+                -Point-to-point serial, Multiprotocol Label
+                        Switching (MPLS) etc.
+                -Terrestrial and non-terrestrial.
+PAN
+        + Personal Area Network
+                - Own private network
+                _Bluetooth, IP, NFC
+        + Automoblie
+                - Audio output
+                - Intergrate with phone
+        + Mobile phone  
+                - Wireless headset
+        + Health
+                - Workout telemetry, daily reports.
+MAN
+        + Metropolitain ARea Network
+                - A network within our city
+                _ Larger than a LAN, often smaller than a WAN`
+        + Historically MAN - specific technologies.
+                - Metro Ethernet
+        + Common to see
+                - The 'own' the right of way
+SAN
+        _Storage Area Network (SAN)
+                _ Look and feels like a local stroage device.
+                        -Block level access( abit to make small changes
+                                on large scale storage.)
+                + Requires alot of bandwidth
+                        - Mayh use an isolated network and high-speed
+                                network technologies
+WLAN
+        + Wireless LAN
+                -802.11 tech
+        +Mobility
+                -IWthing a building
+                - IN a limited geographical area
+        + Expand coverage with additional access points. 
+                - Downtown area 
+                - Large campus.

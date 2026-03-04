@@ -1,0 +1,88 @@
+Cabel Crimpers
+        + "Pinch" the cdonnector onto a wire.   
+                -Coaxial, tiwsted, pair, giber
+        + Connect the modular conn3ector to the Ethernet cable
+                - The final step fo the process
+        +Metal prongs are pushed through the insulation
+                - The plug is also permantly press onto the cable sheath.
+Modular connectors
+        +Pointy ends press throuhghj the insuation and into the wire and 
+                inside the RJ45 connector
+Crimping best-practics
+        + GEt a good crimper
+                _ and a good pair of elcetiranc';s scissors /cable snips
+                - And a good wire stripper
+        + Make sure you use the correct modular connectors
+                - differences between wire types
+        + Practice, practice, practice
+                - Doesn't take lone to become proficent.
+Wi - Fi analzyer
+        + Hardware - based wi -fi anaylsis
+                - Avoids operatatng systems limitiations
+                - View all of the 802.11 indormation in the air
+        + View wifi information
+                _Frew/channels, signal stregnth, access points,
+                        interfecne, wireless devices.
+        + Get a frequency information fro a spectrum analyzer
+                - Useful when many different devices are part of the
+                        bigger picure.
+Tone generator
+        + Toner probe
+                +where does that wire go??
+                - Follow the tone
+        + Putting analog sound on the wire.
+        + Inductive probe: doesn't need to touch the copper
+                - Can be heard through a small speaker.
+Using a Tone generator and probe
+        + Easy wire tracing    
+                -Even in complex enviroments.
+        + Connect the tone fenerator to the wire
+        - Modular jack, Coax, Punch down connectors
+        + Probe to locate the sound
+                - Two-tone sound is easy to find.
+        + Will light up and sound off like in supernatural
+Punch Down tool
+        + 'Punch" a wire into a wiring block
+                -66 block , 110 block and others.
+        + can be tedious 
+                - As each wire must be punched individually.
+        + Trims the wires during the punch
+                - Very efficent process.
+Punch-down best-practices
+        + Organization isk ey
+                - Lots of wires
+                - Cable mangement
+        + Maintain your twists
+                _Your Category 6A cabel will tahk you later
+        +** Document ev erythiung
+                - Written documentation
+                - Tags
+                - Graffiti
+Cable testers
+        + Relticely simple
+                - Continuity test
+                - Simple wire map
+        + Can idienify missed pins
+                - OR crossed wires
+        + Not used for freq testings
+                - Crosstalk, signal loss, etc.
+        +Tone generator set into cable testor mode
+                Set one cable into cable probe.
+Loopback plugs
+        +Useful for testing physical ports
+                _ or fooling you applications
+        + Serial /RS-232 (9 pin or 25 pin)
+        +Netwrok conenctions 
+                -Ethernet, T1, Fiber
+        +These are not cross-over cable.
+Tap sand port mirrors
+        +Intercept network traffic
+                _send a caopt to a packet captiure device
+        + Pjusoca; ta[ps
+                _ Disconnect the link, puit a tap in the middle
+                - Can be an active or passove tap[
+        + Port mirror
+                - Port redirection, SPAN (Switcher POrt ANalyzer)
+                _Software based tap 
+                - LImited fuynctinoality, buit work well in a pinch.
+Taps and Port Mirrors                +

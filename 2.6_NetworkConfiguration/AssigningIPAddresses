@@ -1,0 +1,48 @@
+Networking with IPv4
+        + IP Addersss, e.g., 192,168.1.165
+                - Every device needs a unique IP address.
+        + Subnet mask ex: 255.255.255.0
+                - USed my the local device to determine what subit ie;s on
+                - Subnety mask isnt; usually transmitted across the netowrk
+                - Youll ask for the subnet mask all the time
+                        - What the sunet mask of this network
+        + Defalut gateway, e.g., 192.186.1.1
+                The router that allows you to communicate outside of 
+                        your local subnet.
+                - The defaault gatemay msut be an IPaddress on the
+                        local subnet.
+Static IP addressing
+        + An ip address that doesn't change
+                - Without somet upe fo confiuratio change.
+        + Manually confiure the IP address
+                - Each detail must be typed correctly and done
+                        * manually.
+        + Can be difficult to manage
+                - If the address changes, you must visit the device*
+                - This does not largely scale
+        + try to avoidf using manual IP addressing
+                _  better ways to assign static addresses
+                _DHCP reservations.
+Automatic Private IP addressing (Apipa)
+        IPv4 link-local address
+                - Ex connecting to wifi network in coffee shop.
+                - No fowarding by routers.
+        APIPA users
+                169.254.0.0 thggrough 168.254.255.255
+                        -first and last 256 address are reserfved
+                - Functional bloack of 169... thorugh 168.254...
+        +Randomly assigned in this block
+                - Uses ARP to confrim the address isn't currently in 
+                        use.
+        Turnging dynamic into static
+                + DHCP assigns an IP address from thje first available from a large pool of addresses
+                        - Your IP address will occasionallyu change.
+                + You may  not want your IP address to change.
+                        - Server, printer, or personal preference.
+                + Disable DHCP on the device
+                        - COnfigure the IP address informatio nmanually
+                        - requires additional adminstration.
+                + Better: Configure an IP reservcation on the DHCP 
+                        server
+                        - Associate a specific MAC address with an IP
+                                address.
