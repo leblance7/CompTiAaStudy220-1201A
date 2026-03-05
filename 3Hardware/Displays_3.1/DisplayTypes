@@ -1,0 +1,65 @@
+LCD 
+        + Liquid crystal display
+                - Light shines through liquid crystals.
+        + Advantages
+                - Lightweight, Relatively low power,
+                        relatively inexpensive.
+        + Disadvantage
+                - Black levels are a challenge.
+                - Requires separte backlight
+                + FLoerscent, LED (Light Emitting Diode).
+                + Lights can be difficult to replace.
+LCD technologies
+        + TN (Twisted Nematic) LCD
+                - The original LCD technology.
+                - Fast reponse times (gaming!)
+                - Poor viewing angles - color shifts.
+        + IPS (In Plane Switching) LCD
+                - Excellent color representation.
+                - Can be more expensive to produce than TN
+        + VA (Vertical Alignment) LCD
+                - A good compromise between TN and IPS
+                - Good color representation
+                - Often slower reponse times than TN
+OLED 
+        + Organic Light Emmiting Diode
+                - Organic compound emits light when receiving an electric
+                        current.
+        + No backlight
+                - The organic compoiund provides the light.
+        + Thinner and light 
+                - Flexible and mobile - no glass needed
+        + Tablets, phoone, smart watches
+                - Very accurate color repsentation
+                - Tends to be a bit higher cost than LCD
+Mini LED 
+        + Same backlight echnology as a conventional LED-backlit LCD(LEDs
+        - But much smaller Light Emitting Diodes( LED)
+        + Each LED can be enabled or disabled.
+                - And color intensity can be different.
+        + Much better control over dark screens areas.
+                - Deeper blacks, better color representations.
+LED backlight comparison
+        [  ] vs [] per light emitting diode
+Touchscreen
+        + Merge laptop and tablet input.
+                _digitizer responds to touch.
+                - No Keyboard required.
+        + Many options for input.
+                - Use the best one for the job.
+Digitizer
+        + Use a pen-like device as input
+                - Stylus input
+                - Useful for graphical input.
+        + Used commonly on laptop / tablets.
+                - Or hybrid devices.
+Backlight and inverter
+        +LCD display need a backlight
+                -Florescent lamo or LED lights.
+        + Some laptops have interrters
+                - Turn DC into AC
+        +Verify backlight
+                - Look closely
+                - Use a flashlight
+         + May ned to replace the LCD inverter or display.
+                - Choose carefully.
