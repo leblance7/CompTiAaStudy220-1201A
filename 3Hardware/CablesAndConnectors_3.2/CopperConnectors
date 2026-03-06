@@ -1,0 +1,76 @@
+Copper Connectors
+
+RJ11 connector
+        + 6 position, 2 conductor (6P2C)
+                - some cables will wire additonal 
+                        conductors
+        + Telephone or DSL connection.
+                + Digital Scriber Line connection.
+RJ45 connector
+        + registerd Jack type 45
+        + 8 poition, 8 conductor (8P8C)
+                - Modular connector
+                - Ethernet
+  --
+-|  |-
+|    | 
+ _  _ 
+  ||
+  _
+F-connector
+        + Coax connecctor
+                _treaded connector
+        + cable televisin
+                - Cable modern
+                - DOCSIS(Data Over Cable Service 
+                        Interface Specification.)
+Punchdown block
+        + Wire-to-Wire patch panel
+                - No intermediate interface required.
+        + Wires are "punched" into the block.
+                - Connecting block is put on top.
+        + Additoinal wires punched into the connecting block
+                - Patch the bottomr top to the bottom.
+        3:48 twisted wire connected image
+        4:14 punch down wire connector image
+USB 1.1/20 conn3ctors
+        + standard A plug
+        + Standard B plug
+        + Mini B plug
+        + Micro-B plug
+                ** What are peripherals in IT hardware?
+        + USB 3.0 Standard-B plug
+        + Usb 3.0 Standard-A plug
+        + USB 3.0 Micro-B plug
+USB-C 
+        +24-pin double-side USB connector
+                - Used for both host and devices.
+        + Used for USB, Thunderbolt
+                - Interface is the same, signal can vary.
+Molex connector
+        + 4-pin peripehral power connector
+                - Originally creted ny Molex Connector Compan
+                - AMP Mate-n-lock
+                - Provides +12V and +5V
+        + Power for many devices in the computer case
+                - Storage devices, fans, Other peripherals
+:x
+Power supply
+        - Molex connectors power internal peripherals.
+Lighting 
+        + Apple proprietary
+                - 8-pin digital signals
+                - iPhone, iPad, iPod devices.
+        + Some advantage over Micro-USB
+                - HIgher power outpot for phones and tables
+                - Can be inserted either way.
+DB-9 
+        + D-subminiature or D-sub
+                - The letter refers to teh connector size
+        + Commonly used for RS-232
+                + recommend standard 232
+                - An idustry standard since 1969
+        + Serial communication standard
+                - Built for modem commmunication
+                - Used for modems, printers, mice, metworking.
+        + Now used as a configuration port

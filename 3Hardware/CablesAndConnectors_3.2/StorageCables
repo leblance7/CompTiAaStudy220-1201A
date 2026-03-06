@@ -1,0 +1,27 @@
+SATA (Serial AT Attachment)
+        + SATA Revision 1.0
+                - Sata 1.5Gbit/s, 1 meter
+        + SATA Revision 2.0
+                -SATA 3.0 Gbit/s 1 meter
+        + SATA Revision 3.0
+                - SATA 6.0 Gbit/s, 1 meter
+        + SATA Revision 3.2
+                -SATA 16 Gbit/s, 1 meter
+        + eSATA (External SATA)
+                - Matches the SATA version.
+                - 2 meters.
+SATA
+        power (15 pins)
+        data (7 pins)
+        + One power cable and data cable per deivce.
+                - One-to-One
+                ** Does not support Daisy-Chaining
+                + * total motherboards and 8 total drives.
+        + Connector on the motherboard and the connection on
+                storage drive.
+eSATA cable
+        + External device connections.
+                - SATA ----
+                       |
+                - eSATA - - - - -
+                         _ _ _ _  "shape."
