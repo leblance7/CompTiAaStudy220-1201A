@@ -1,0 +1,101 @@
+The importance of cable
+        + Fundamental to netowrk communication
+                -INcredibility important foundation
+        + Usually only one good oppurtunity
+                - Make it good !
+        + Vast majority of wireless commuinication uses cables  
+                - It has to plug in somewhere.
+Twisted pair copper cabling
+        + Balanced pair operation
+                - Two wires with equal and oppsite signals
+                - transmit+, transmit- / Recieve+, Recieve-
+        + The twist is the secret!
+                - Keeps a single wire constanly moving.
+                - The opposite signals are compared on the other end.
+        + Pairs in the same cables have different twist rates.
+Cable categories
+        + Cables don't just have a speed
+                + The copper just sits there.
+        + Electric signals are sent over copper cable
+                - The singal endoding determines the date transfer rarte
+        + A cable must be manuyfactued to specific standards
+                - IEEE 802.3 Ethernet standsard determine the cable type
+        + Cable standard are descriube as a "category" of cable
+                - Category 5e, Category 6A, etc
+                - Check the IEEE standard to determine the minimum cable 
+                        category.
+                - The minimun cable cateogory for 1000BASE-T is Category 5.
+Copper cable catogories
+        + Ethernet Standard | Cable Category | Maximum Supported Desince
+                1000BASE-T  | Category 5     | 100 meters
+                1000BASE-T  | Category5e(enha)| 100 meters
+                10GBASE-T   | Category 6      | Unshielded: 55 meters
+                                                Shielded: 100 meters
+                10GBASE-T   | Catergory 6a
+                              Augmentedi      | 100 meters
+Coaxial Cable
+        + Two or more forms share a common axis
+                - The inner conductor and the outer shield
+        -RG - 6 used in television / digitial cable
+                - And high speed internet over cable.
+Unshielded and shielded cabled
+        + UTP ( Unshielded Twisted Pair)
+                - No additonal shielding
+                - The most common twisted pair cabling.
+        + STP (Shielded Twisted Pair)
+                - additonal shielding protectrs against interference
+                - Shield each pair and / o rthe overall cable.
+                - Require the cable to be grounded.
++ Unshielded and shield cable
+        + abbreciations
+                - U = Unshielded
+                - S = Braided shielding
+                - F = Foil Shielding
+        + (Overall cable) / (Individual Pairs)TP
+                - Braided shieldin garouind the entire cable and fouil around
+                        the pairs is S/FTP.
+                - Foil arouind the cable and no shielding around the pairs
+                        is F/UTP.
+Direct burial STP
+        + OVerhead cable isn't always good option
+                - Put the cable in the ground.
+        + Provides rptection from the elements.
+                - Designed to be waterproof 
+                - Often dilled wsith gel to repel water.
+                - Conduit may not be needed.
+        + Shield twisted pair
+                - Provides groundeing
+                - Adds strenght
+                - Protects against signal interference.
+Direct Burial STP cross section
+        Copper Conductors, Outer Jackst, Optional Waterproof gel, Drain Wire (Ground), Pair SHield, Overall Foil Shield.
+
+No plenum:
+        Dead/ Non - Cirulation Airspace
+        [ <--- Forced - Air Return /\ ] [ Forced-Air Supply <--]
+Drop Ceiling --------------------------------------------------------
+        Living/ working space of a typical commerical builiding.
+
+
+Plenum
+        Active / Circulation Plenum Airspace
+                + Plenum space
+                        - Building sir circulation
+                        - Heating and air condition system
+                + Concerns in the case fo a fire
+                        - Smoke and toxic fumes
+                + Worst-case planning
+                        - Neccessary in any structure.
+        *Ceiling structure with moving airspace that is benefical to functional
+                wiring but increased harzard in the case of a fire. Due to 
+                machine and possible wire overheating.
+Plenum-rated cable 
+        + traditoinal cable kacket
+                - Polyvinyl chloride (PVC)
+        + Fire-rated cable kacet 
+                -Fluroinated ethylene ploymer(FEP) or
+                        low - smoke polyvinvy chloride (PVC) cable.
+        + Plenum-rated cable may not be as flexible
+                - May not have the same bend radius.
+        + Worst - cast planning
+                -Importasnt concewrns for any structure.

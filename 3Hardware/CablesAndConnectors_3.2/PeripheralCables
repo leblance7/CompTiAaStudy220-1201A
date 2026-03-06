@@ -1,0 +1,66 @@
+USB (Universal Serial Bus)
+        + Simplify connections
+                - Printers, storage devices, keyboard, mouse.
+        + USB 1.1
+                - Low speed: 1.5 megabits per seconds, 3 meters
+                - Full speed: 12 megabits pers seconds, 5 meters
+        + USB 2.0 
+                - 480 megabits per second, 5 meters
+        + USB 3.0 
+                - Superspeed 
+                - 5 Gigs per second, ~3 meteres(Aprox)
+                - Standard does not specify a cable length.
+        + USB 3.1: Maximum of 10 gigabits persecond
+        + USB 3.2 Maximum of 20 gigabits per second
+USB-C 
+        + USB has a lot of different connectors
+                - JHave changed over time
+        + can be annoyhing to connect usb-a
+        + USB-C replaces all of these
+                - One connector to ruel them all
+        + USB-C describers the physocal; connector
+                - Doesn't describe the signal.
+Connector comparison
+        + Images of A, B, and C connectors.
+
+Serial cables   
+        + D-subminiature of D-sub
+                - The letter refers to the connector size.
+        + Commonly usde for RS-232
+                + Recommended for Standard 232
+                - Industry standard 232
+       + Serial communication standard 
+                - Buiilt for modem comunicatin
+                - Used for modems, printers, mice , networking
+        + Now used as a configuration port.
+Serial Cables
+        +Directly connect to the device
+                + traditionally a serial connection
+                - DB9 connector, RJ45 serial, USB connection
+        + When all else fails
+                - Console will be availaible
+        + Reqwuires a serial or USB connection
+                - May need USB or SB9 serial adapter.
+Thundebolt
+        + High-speed serial connector
+                -Data and power on thesame cable
+                - Baswd on Mini DisplayPort Connector.(MDP_ standard
+        + Thunderbolt 1
+                - Two channels
+                - 10 Gbit/s per channel
+                - 20 Gbit/s total throughput.
+                - Mini DisplayPort connector
+        + Thunderbolt 2
+                + 20 Gbit/s affrefated channels
+                - Mini DisplayPort connector
+Thunderbolt
+        + Thundebolt 3
+                - 40Gbit/s aggregated throuhput
+                - USB-C connector
+        + Maximum 3 meters (copper)
+                + Daisy-chain up to 6 devices
+                -  60 meters optinoal
+        + Thunderbolt 4
+                - Still 40Gbit/s affreafated throughput
+                - Support for dual 4K displays
+                - Increadsed PCIe bandwidth.

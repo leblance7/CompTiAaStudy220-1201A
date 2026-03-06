@@ -1,0 +1,39 @@
+Structured cabling standards
+        + Internation ISO?IEC 11801 cabling standards.  
+                - Defines classews of networking standards
+        + Telecommunication Industr Association (TIA)
+                - Standard, market analysis, trade shows, government
+                        affairs, etc.
+                -ANSI/TIA - 568: Commerical Building Telecommunication
+                        Cabling Standard.
+                + https://www.tiaonline.org
+        + Commonlu refernced for pin and pair assignmnets of eight-
+                conductor 100 - ohm balanced twisated pair cabling
+                - T568A and T568B.
+T568A and T568B termination
+        + Pin addignments from T568B standard
+                - Eight conducvtyor 100 - OHM balanced twisted - pair
+                        cabling
+        + T568A and T568B are a different piun assignmnets fro 8P8C  
+                connecotors.
+        + Manhy organizations traditionall use 568B
+                - Difficult to manage mid-stream
+        + You should't terminate one side of teh cable with T568A
+                and the other with T568B
+                - This has never been the definion of a Giabit Ethenet
+                        crossover cable.
+568A and 568B termination
+        + A and B both avry in color order.       
+                - Only need to memorize the difference between pins one
+                        and two and pins three and six.
+                A: White/Green, Green, Blue, WHite and Blue, Orangbe,
+                        White and Brown, Brown
+                B: White and Orange, Orange, White and Green, Blue White 
+                        and Blue, Green, White and Brown, Brown.
+                ** Cable color are aligned vertically.
+                ** Look at the wires after crimping,
+                        Then check the Color orientation before
+                        inserting into cable 568A or B termination.
+                ** Some cable terminations will have the colors 
+                        aligned and only the matching needs to connect.
+                + Example of this is a keystone jack.

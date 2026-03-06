@@ -1,0 +1,50 @@
+HDMI( High definitoin Multimedia Interface)
+        + Video and audio stream
+                - All digital , no analog
+                ~ 20 meter distance before the connector starts to drop
+        + 19-pin (Type A) Connector
+                - One of the most common video connector types.
+Display Port
+        + Digital information sent in packetized form
+                - LIke Ethernet adn PCi Express
+                - Carries both audio and video
+        + Comptatible with HDMI andf DVI
+                - Passoive adpater
+                        - DisplayPort > HDMI
+                        - DisplayPort > DVI
+        + Full-size interface may include a lcoking mechanism.
+                - Don't pull when unlocking.
+DVI ( Digitial Visual Interface)
+        + Single and dual link video
+                - Single LIink, 3.7 Gbps (1920 x 1200 60 Hz)
+                - Dual Link; 7.4 Gbps (2560 x 1600 at 85 hz)
+                - No audio support
+        + DVI-A 
+                - Analog signals
+                - backward compatibility with VGA
+        + DVI-D 
+                - Digitial signals
+        + DVI-I
+                - Integratred - Digital and analog in the same
+                        connector.
+VGA(Video Graphic Array)
+        + DB-15 connector
+                - More accurately called DE-15
+        + Blue color
+                - PC system design guide
+        + Video only
+                - No digital
+        + Analog signal 
+                - No digital 
+                - Image degrades after 5 to 10 meters.
+USB-C
+        + A connector
+                - not a protocol
+        + many uses for USB-C
+                - Power
+                - Thundebolt data
+                - Displayport video
+                - HDMI video (not common)
+                - Mobile High-Definition
+                - LInk(MHL)
+
