@@ -1,0 +1,61 @@
+An Overview of Memory
+
+What is memory?
+        + Random Access Memory (RAM)
+                - But it's not the only kind of memory
+        + RAM is not referring to hard drive or SDD storage
+                - Dont mixc the two terms
+                _ Data is stored permanelty on the hard drive
+        + Data and programs can only be used when moved to RAM
+RAM (Random Access Memory)Slots
+        + Memory types have chnag4eed thgrough the years
+                _ Driven bny standardization and technology.
+        + One of the most important components of your computer.
+                - Speed, speed, speed
+         + Every motherboard is different 
+                - Check your documentation.
+DIMM 
+        + Dual INline Memory Module
+        + Electrical contacts are different on each side.
+                - Contacts we see on one side are different that contacts on
+                        the other side, Showing a stick of RAM component.
+                        * This stick is called DIMM.
+        + 64 bit data width.
+SO-DIMM
+        + SMall Outline  DUal In-LIne Memory Module
+                - Ablut half the size of a DIMM
+        + Usually for laptop and are installed horizontally.
+Dynamic Random Access Memory
+        + The momory on the DIMM
+        + Dynamic 
+                - Needs constant refreshing
+                - Wihtout refresgin, the data in memroy disappers
+        + Random access
+                - Any storage in locvation can be accessed directly 
+                - Unlike magnetic tape
+SDRAM
+        + Synchronous DRAM (SDRAM)
+        SDRAM i s synchronous with the common clock
+                - Queue up one process while waiting for the other
+                - Classic DRAM didin' twait for a clock signal
+                * Essentially able the sequence order of events
+                        queued in process to be executed.
+SDR vs DDR
+        + SDR
+        + One Clock Cycle
+                - 1 data during each cycle.
+        + DDR
+                - 2 units of data during each clock cycle
+
+Double Data Rate 3 (DDR3) SDRAM
+        + Twice the date rate of DDR2
+                - LArgter chip capacitites
+        + No backward comptatibiliy
+                -Speed brings sacrifice.
+Double Data Rate 5 (DDR5) SDRAM
+        + Faster data transfer between the memory module and motherboard
+                - Higher speeds than DDR4
+        + The key has moved 
+                - No backward compatibility
+        ** Small notches on DDR 1, 2, 3, 4, and 5. In different locations
+                coresponding to the motherboard.

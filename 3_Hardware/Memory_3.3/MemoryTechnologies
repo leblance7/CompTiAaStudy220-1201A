@@ -1,0 +1,12 @@
+Memory that checks itself
+        + Used on critical computer systems
+                - VM servers, database servers, any server'
+        + Parity memroy 
+                - Adds an additonal parity bit
+                - Won' talways detect an error
+                - Can' tcorrect an error
+        + Error Correction Code (ECC)
+                - detects errors and correcctrs on the fly
+                _ Not all systems use ECC
+                - It looks the same as non -ECC memory.
+
