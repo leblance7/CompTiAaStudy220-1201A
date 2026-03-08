@@ -1,7 +1,7 @@
 Memory that checks itself
         + Used on critical computer systems
                 - VM servers, database servers, any server'
-        + Parity memroy 
+        + Parity memeory
                 - Adds an additonal parity bit
                 - Won' talways detect an error
                 - Can' tcorrect an error
@@ -9,4 +9,35 @@ Memory that checks itself
                 - detects errors and correcctrs on the fly
                 _ Not all systems use ECC
                 - It looks the same as non -ECC memory.
+Parity
+        + Even parity
+                - The parity bitmakes an even number.  Parity :__|
+Bit:1,      2,      3,      4,      5,      6,      7,      8: 
+    1       1       1       0       0       1       1       1: 1
+                                                        TRUE
+    1       0       0       1       1       0       0       0: 0
+                                                        FLASE
+    0       1       1       0       0       1       0       0: 1
+                                                        TRUE
+* Copare the parity bit with the one stored in memory. Then we
+        know wether the Bit has been stored correctly.
+        - Vaild or error?
+                - Even parity byte.
+CPU to RAM throughput  
+        + There's a maxiumm throughput between RAM and CPU.
+        - the memory bandwidth
+        + measure in MT/s 
+                - Megatransfers/s
+                - Million transfers per second
+                - ex: 32GB DDR5, 1 x 32 GB, 5600MT/s
+        Faster is better
+                - Physics becomes the challenge.
+Mult-channel memory     
+        _ difficlu to increase the speed
+                - Push as much as possible across a memory bus.0
+        + Bandwidth must be able to support the memory of the CPU
+                - DOuble channel, triple-cannel, or qual-channel
+        + Memory combinations hsould match
+                - Exact matches are best
+        + Memory module solts are often colored differently.
 

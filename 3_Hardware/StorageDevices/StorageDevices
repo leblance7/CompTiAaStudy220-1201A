@@ -1,0 +1,117 @@
+Storage devices
+        _ need some way to stre incormation when the computer is 
+                off
+                - RAM requires poer to main the data
+        + Many different ways to store data
+                - Hard, solid-state, Flash, memeory, and
+                        optical drives.
+Hard disk drive (HHD)
+        + non-volatiel magnetic storage
+                - Rapidly rotationg platters
+        + RAndom access
+                - Retrieve data from any part of the frive at any 
+                        time .
+        + Moving parts
+                - Spinning platters, moving actuator arm
+                - Mechanical componetns limit the acces speed
+                - Mechanical components can also break.
+        + Essentially looks like a vinyl record
+        + spindle speeds
+Rptational Speed rpm: 15,000, 10,000, 7,200, 5,400
+                        2, 3, 4.16, 5.55
+        Head piece, serves as the read/write tool for the data.
+Heads and platters
+        Actuaror arm and a drive head on the top and bottom of the platter
+
+Drive size Comparazin
+        3.5 inch, 2,5 inch, 22mm
+                - This refering the the widgoth of the drive
+Solid-state drive (SSD)
+        + Non-volatiel memeory
+                - no movoing parts
+                + ver fast perfoarmance
+                        -No spinning drive delays
+2.5" SATA interface
+PCLe strage interafaces
+        + HIgh speed for SSD communication
+        - Used beofre M.2
+        + connect directlt o the mother baord
+                -provides power
+                - High through port
+        + PCI express
+                - Modern PCIe standard can transfer dta
+                 at 63 gigabits per second lane
+NVMe
+        + SATA was desinged gor hard drives
+                - Uses AHCI ( Advanced Host COntroller Interface) 
+                        to move drive dat to RAm
+                - SATA revision 3 throughout up to 6Gbps
+                -SSD need a faster communicatin mehtod
+        + NVMe (Non-volatile Memory expresss)
+         +Designed for SSD speeds
+         - lower latency, suppoetrs higher througjouts
+          -USes PIC ecpress bus
+          NVMe using m.2 theotetical transfers speed of 20 Gbps
+Serial attached SCSI
+        + the laest generation of SCSI technology
+                Increadd strogage through [ut
+                - Serial communicaon
+         _SCSI protocl
+                - SAS -seroal attached SCSI
+         + tHE CONTROL AND MANGEMENT OF scsi
+                - usEFL IN LARGE STORAGE ARRAYS
+         + an upgrade to SATA throughout
+                _ SAta con communicat at 6 gigabits per sec
+                - Hig-end SAS can reach 22.5 gigabits per second.
+when using large array of spinning hardrives, better to use SAS
+        drives.
+mSATA ( mini-SATA)
+        + Shirnk the TATA drive into smaller sevices
+                - Same data, different form facot
+                - great for loptops and mobile deives
+        + Smalle than 2.5" SATA drives
+                - No spinning drive
+                - Allows fro different form facots
+        + Wass used briedly
+                - Quicly replace by the m.2 standard
+M.2 interafce
+        + Smaller form facot
+                -No SATA data or power vables
+        + can use a PCI express bus cnnection
+                -4 GB/s througpit or dater whenusing NVM3 PCIe x4
+        + differnt connector types
+                - Needs to be compatible with teh slot key/spacer
+                _ B key, M key, o rB and M key
+                - some M.2 drives will support both
+B- key and M -key
++ M.2 doesnt guaraantee  NVMe 
+        - Your M.2 interface may be using AHCI
+        - Check your documentation
+        + Your motherboard may only support type of M.2 kwy
+        - check the documentation again
+                - makes for fast installion or removal
++ Flash drives
+        +EEPROM (Electrically erasable programmable read-only memoery)
+        -Non-volatile memeory
+        - No power requrie to retian data
+        + LImted number of writes
+                - Can still read the dta
+        + Not designed for archival stroage
+        - Eas t olose or damage
+        - Always have backup stored
++ Flash memory
+        + USB Flash Drive
+        + CompactFlash(CF), 
+        Secure Digital (SD)
+        + mini SD
+        + microSF
+        + xD-Picutre Card
+OPtical drives
+         + Smal bumps read with laser beam
+         + Microscopic binary storage
+        + Relativ elsow         
+                - archiaval media
+        + Many differnt formats
+                -CD-ROm, DVDROm, Blue-ray
+        + Internal and external drives
+                - For those uncommon application installations

@@ -1,0 +1,36 @@
+BIOS - Basic Input/Output System
+        + the softwar used to start your computer
+                -The firmware
+                        _ System BIOS, ROM BIOS
+                        - ROM or flash memory
+        + INitalizaes CPU and memory
+                - Build the workspace
+        + POST
+                - Power-on-slef-test
+        + Look for a boot loader
+                - Sart the operating system.
+Legacy BIOS
+        +the prignal /traditional BIOS
+                -it's beena round for more then 25 years
+        + Older operation systems talked to hardware through the 
+                BIOS
+                - Instead of accessing hardware directly
+        + Limited hardware support
+                - No dirvers for meodern network, video, and
+                storage devices
+        BIOS is what checks the systems drives, to locate the 
+                type of operatin system to boot up.
+UEFI BIOS
+        + Unifield Extensible Firmware Interaface
+                _ based on Intel's EFI
+                        (Extensible Firmware Interface)
+        + a defined standard
+                - Implemented by the maufacturea
+        + designed to replace the legacy BIOS
+                - Need a modern BIOS for modern computers
+                - Graphical and text-based.
+UEFI BIOS 
+        + Overview of the System
+                + Advanded settigns for CPU features
+                ** do not change or modify without knowng exaclty 
+                        what they will be. 

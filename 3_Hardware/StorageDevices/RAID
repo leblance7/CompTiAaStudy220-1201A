@@ -1,0 +1,63 @@
+Data redundancy - Important data
+        + Hard drive are moving components
+        - they will eventually break
+        + wahat happens to the data with the drive fails
+                - you ca prepare fo that 
+                - Use an array of drives
+        *** RAID is not an backup
+RAID
+        + Redundant Arrayof Indepents Disls
+                0 they're also inexoensive disks
+         + Differnt RAID levels
+                - Some redundant ,some not
+        RAID 0 : Striping
+        RAID 1 - Mirroring
+        RAID 5 - Striping iwht one pratu drive
+        RAID 6 - Stripign with twup parity drives
+        Nested RAID - RAID 1+0(a.k.a. RAID10) - A tripe of mirrors
+RAID - 0
+        + File blocks are spilt between tow or more physical drives
+        + High performance
+                - Data writen quickly
+        + no redundancy
+                ** half of data is no longer availble
+                - A drive failure break the array 
+                - RAID 0 is zero redunancy
+** what is redundancy in the RAID 
+        
+        Strip ---- Block 2a, 4a,6a, 8a
+              | _ block 1a, 3a, 5, 7a
+RAID 1 - Mirroring
+        + File blocks are duplicated between two or more physical
+                drives.
+        + HIgh disk utiilcation
+                - every ile is duplicated
+                - Required disk spave is doubled
+                + High redundancy drive daul does not affect data
+                        availbility
+RAID 5 - Striping with parity
+        + File blcoks are stiped 
+                - Along with a parity block 
+                - requires at leadt three drives
+                Parity A, B, C, D. Each of these are in a 
+                        different disk
+                + Effiecnt use of disk space
+                        - File aren't duplicated but spave is sti
+                                ... l used for paruty
+                + High redundancy
+                        - data us avaible after drive failutr 
+                        - Paruty calculation may affect perfomance
+RAID 6 - Struping with 2x Parity
+        + Add another parity block
+        - requires at leadt four drives
+        + Could los two drives
+                - data would continue to be available
+        + requires another drive
+                - Adds more pariryt
+                - does not add more capacity
+        * I belive in this settings a drive si a storage device
+RAID 10 (1+0)
+        + the speed of striping the redundancy of mirroring
+                - A stupr of mirros - the best of both worlds
+        + Need at least 4 drives
+
