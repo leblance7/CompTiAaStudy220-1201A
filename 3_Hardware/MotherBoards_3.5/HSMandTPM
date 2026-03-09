@@ -1,0 +1,62 @@
+Keeping secrets
+        + IT security is based around secrete
+                - And trustingother devices and appocations
+                + We use a lot of encruption
+                        - Web servers, file storage, pjon edata, and more
+                + The secret part is the key
+                        - Unlockes all of this encryption
+                        - Where do you store thse secrets?
+Trusted Platform Module (TPM)
+        + a specification for cruptographic functions
+                - Hardwar to hep wit single decie enruption 
+                        functions
+        + Cryptograhihc processoe 
+                - Random number henrator, key generatora
+        + Persistent memory
+                 ) INlcudes uniwue keys burned in during production
+                + Versatlie memory
+                        - Storage keys, hardware confiuration
+                                information
+                + Passowrd protected
+                        - No dictionary attacks
+
+Trusted Platform Moduele (TPM)
+        + Contains a wuniwue secret key
+                - NOt availbalt to outside of this decie
+        + LINked this key ot this computer
+                - Can;t move an encrupted drive 
+                        to another computer
+                - The key is on this computer
+        + alos used as a phyical point of refernce
+                - a root f trust
+                        _ Has this computer been modified or tampered wiht
+        + can't use this key on another computer
+                -Cyrptography for a single device
+HAedware security MOdule (HSM)
+        + OFren used in large enviroments
+                -Sever cluster, many diverse devices
+        + jey backuo
+                -Secured stroage for serer
+                - LIghtwidth HSMs for personal use
+                        (Smart card, USb , flash memory).
+        + Often high-end cryptographic hardware
+                -Plufin card or spereate hardware deice
+        + Cryptographic accelerators
+                - Perform cryptographic functions for other
+                        devices
+                _ Only the HSm knows the key.
+TPMs and HSM s
+        TPM (Trusted Platfrom Module)
+                - Used on a single sustem 
+                -secucre data on a local deive
+                - often buuilit into a motherboard or available as
+                        as add-on odule
+                        - Mobil ephone booting, screen locking, 
+                                and encrypted stroage.
+        HSM (Hardware Secutiry module)
+                - used ny many systems
+                - secure data across multiple devices
+                - Often deployed as a high-end server or appliance
+                        in a data center
+                - Protect the Certificate Ahtority key on a 
+                        central secure device.

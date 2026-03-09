@@ -1,0 +1,120 @@
+The secert buttons(s)
+        + Launching th system setup
+                - Del, F1, F2, Ctril-S. Ctrl-Alt-s
+        + Hyper-V (WIndows 10/11_
+                - Turn Windows features on and off
+        +VMware Workstation
+                -https://professormesser.link/vmware
+        + But not VirtualBox
+                -http://www.vitualbox.org
+        + Many simulators online
+                - Search for "UEFI BIOS simulation."
+        :w
+Fast startup
+        + Windows 10 and 11 (and previous versions)
+                - doesn' tactually shut down allthe way
+                - Starts up so quickly, you can't open the BIOS configuration
+        + From the Windwos desktop
+                - Hold down shift wen clicking Restart
+                - Settings / UPdate & Security / Recovery
+                / Advanced startup/ Restart now
+                - Sustem Confiuration (msconfig)
+        + Interupt normal boot three tiems
+                - Presents the bot option screen
+Important tups
+        + Make a backup of uour BIOS confiuration
+                -Write detailed notes
+                - Take a picture.
+        + Donrmake a change unless you're certian of the setting
+                - THs difficult to leave it alone.
+        + Did i mentio the backup?
+                - IT can save alot of time
+Boot options
+        + what happens when you power on
+                - the BIS knows
+        + Disbale hardare
+                -Unabilable to the operating system.
+        + modify th eboo torder
+                _ whic boots first?
+                        - Move to the next ino rfer
+                        - USB drive, SSD, hard drive.
+The BIOS 
+        + Number of differnt drives inside of the bIOS
+        + Primary boot sequences determines jsut that i nth e boo
+                process of turning on device.
+US permissions
+        + A secuirty challenge 
+                - Vey small storrage devies
+                _ Veru large capacites
+        + USB connections
+                - Convenient
+                - High speed
+        + Us department of Defense banned USB flash medin for 15 months in 2008
+                - SillyFDC worm
+In BIOS 
+        + USB oot access can be enabled or disabled
+Fans 
+        + COmpting power creates heat
+                - a lot of heat
+        + Many differnt cooling fans
+        - CPU fan
+        - Chassis fans
+        +Motherboard often in lcude an intergrated fan controller
+                - Temperature sensors
+                - The motherboards increases and decreases the fan speeds
+        + Bios also has settings for advanced cooling of the 
+                mother boarfd or intellifent cooling
++ Secure Boot
+        + malicious software can "iwn" our system
+                = Maliciou sdrivrs or OS software
+        + secure boot
+                - Part of the UEFFI specification
+        + Diigitially sign lnow-good software
+                _Cryptoographically seecure
+                - Software won;t run withpot the porpe signautre
+        + Support in many different systems
+                - Windows and linus support 
+UEFI BIOS Secure Boot
+        _ UEFI BIOS protections
+                _BIOS includes the manufacture's public key
+                -DIgital signature is checked during a BIOS update
+                - BIOS prevents unautohorixed writes to the flash
+        + Secure Boot verifies the bootloadern
+                - Checks the OS bootloader'sdigital signaure
+                - bootloader must be signed with a trusted 
+                        certificate
+                - Or a maually approved digital signture
+Boot passwaorm amnagement
+        + Bot Password /User Passoword
+        _ System won;t start
+        - Need the password to boot the operatin g suste,
+        +supervisor/BIOS Password
+                -restrict BIOS changes
+                - Must use BIOS passwrod to change any congiuation settings
+        + Remeber your password!
+                - Must reset the BIOS TO recover!!**
+Clearing a boot password
+        +Store the bIOS configuration
+                -YOur settings
+        + Complementary metal-oxide aemiconducto(CMOS)
+                -A type of memory
+                - May be bacled up wth a batter
+        + Usually flash memeory these days
+                _easlity stored and accessed
+        + Reset witha jumper
+                _ SHort (Connect) two pins on the motherboard.
+Temperature onitiring
+        + Part of the BIOS
+                -Build-in diagnonstics
+        + Run from the BIOS menu
+                - no additoanl media of software required
+        + Focused on hardware checks
+                _ Doesn't touch the operating system.
+Virtualication support
+        + Run other operation systems within a single
+                hardware paltofrom
+                - Multiple operatin syststms share physical hard-                       ware componets
+        + Virtualization added to teh processor
+                _ Hardwaare is fster and easier to manage
+                -Intel virutalitons technology (VT)
+                -AMD Virutalication (AMD-V)
