@@ -1,0 +1,32 @@
+Operating system technologies
+        + 32-bit vs 64-bit
+                -Processer specific
+        + 32-bit processors can store
+                2 /\32 = 4.294.967,296 values
+        64-bit processors can store 2/\64 = 18446744073709551616 values.
+        - 4GB vs 17 Billion GB
+        - The OS has a maximum supported value.
+Operating system technololgies
+        + Hardware rivers are specific to OS version (32-bit / 64-bit)
+                - 32-bit (x86), 64-bit (x64)
+        +32-bit OS  cannot run 64-bit apps
+                - Buit 64-bit OS can run 32 - bit
+        + Apps in a 64-bit Windows OS 
+                - 32-bit apps: \Program Files (x86)
+Advanced RISC machine (ARM)
+        + CPU architurectur developed by ARM Ldt
+                - They desin the chip, others license build.
+        + Simplidifed instructuion set
+                - Efficient and fast provessing
+                - less power
+                - less heat
+        + Traditionally used for mobil eand loT devices
+                - Asoption by Apple and other manufacture s for desktops
+                        and laptops.
+                - The lines are constantly blurring.
+Processor Cores
+        + Dual-core / Quad-core/ Octa-core/ Multi-core
+                - And more all the time.
+        + Multiple cores
+                - Each core has its own cache
+                - the entire chip may have a shared cache.

@@ -1,0 +1,129 @@
+WARNING
+        Always disconnect from the power sourve when working ona device
+        **Always 
+
+        + Some devies stroew a shcage in capacitors
+                -Knwo how to dischbage before touching
+        + NNerver connect your bopdy to anyh p[ast of an electrial system.
+                - Don not connect oyuseld to the feround wire of an electrial system
+        + Respect electricity
+                - It does not respect you
+Computer power supplu
+        + Computer uses DC voltage
+                - Most power sirrces provide4 AC volotage
+        + COnvert 120 V AC or  240 V ACC
+                - to 3.3 V DC, 5 V DC, and 12 V DC
+        + you'll knoiw whtn thi sisn;t working
+                - Important component
+Amp and volt
+        + Ampere (amp, A) - the traoe of electron flow past a point in on e second
+                - Diameter of the hose
+        + Voltage (volt, V) Electrial "pressure" oushing the elctrons
+                - how opent he faucet is 
+Power 
+        + Watt (W) - Measure of real power use
+                - vlots * amps = watts
+                - 120V * .5A = 60W
+Current 
+        + Alternating current (AC) /\/\/\/\/\/
+                - Direction of current constantly reverses
+                - Distributes electricy efficenetly over long distance
+                - Frequency of this cycl;e is important
+        + US?CANanda - 110 tp 120 volts of AC(VAC), 60 hertz(Hz)
+        + Europe -220 to 240 VAC, 50 hx
+        +Direct current (DC) -----------
+                - Current moves in one direction witha constant voltage
+Dual-volatege input options
+        + VOltage caries buyu country
+                + maunually switch between 120 V and 230 V
+                - Get meter to measure!
+                - Or use an auto voltage switcgin power supply
+        + Don't plug a 120 V power supply into a 120 V power source.
+                - Check what is confiured on the power supply before  plugging in
+Power supply output
+        + Different voltages
+                - For different components
+        + Postivie and negativce voltage
+                _Coltrage is differnce in potential
+                - Electrail grounbd is a common refernce point
+                - Depends on where uyou measure from
+        + At the fron t dorr of our hose
+                + The second floor is +10 ft
+                - the basement is -10 ft
+Power supply piytput
+        + +12V
+                +PCIe adpatersm, hard drive mototrs
+        , cooling gans, most modern components
+        = +5 V
+                - Some mother board components
+                - man components are now using +3.3 V
+         + 3.3V 
+                - M.2 slots, Ram slots, notherboard logic circuits
+        + 5V 
+                - Standby voltage
+        + -12V 
+                - INtergrated LAN
+                - Odler serai lports
+                - Some PCI cards
+        + -5V
+                + Availeable for ISA adapter cards
+                - Most cards didn't use it
+                - Today's motherboards don't have ISA slots
+        ** All of this is documents in power supply manaual
+24-pin motherboard power
+        + main motherboard power
+                - Provies +3.3 V, +/-5V and +/- 12 V y
+        + 20 pin connectots was the origina ATX stanard
+                - 24 pin was added fro the PCI Express power
+        + YOu cab cobbect a 24 pin connectors to a 20 oin motherbaord
+                - SOme cabels are 20-pin + 4-pin
+         ** con only fit into connector one way as fit is key1
+edundant power supplie
+        + Twp (or more) power sipploies        
+                - Internal to the server
+        + each 
+Redundatn poer suppl;ies
+        + Two (or more) power supplies
+                - Inte4ranl to the server
+        + each power suppl;y cabn hanfle 100%^ gog the load
+                - Would normally run at 50% of the load
+        + Hot - swappalebl
+                _ replace a faulty power supply without powering down.
+Poewr supplyu connectors
+        + Fixzed connectors
+                -Connected to the power supply
+                _ May have too many connectos
+                - May not have ewnough
+        + MOdular 
+                - Add cvables as nneded
+                - Fewer leftover wires
+        , better airflow
+        - A bit more expensive
+Sizin a power supply 
+        + power suuplies are tated by watts
+                _ Overall band ny indiciual voltgages
+        + bigger isn;t anecessairly better
+                -Morew expensive and doens;t speed up your computer
+        + Physical size is relatively standard
+                - Older cases andystems may have proprietary sizes
+Sizing a power supply
+        + calculate the watts required for all componetns
+                - CPU, storage decvies, vcideo adapter
+                - many online calulatores
+        + Video adpater are usually the alrfgestr power draw
+                _ Many video card speciifc cation
+                        list recmmnedeed power suipply wattage
+        + 50% capavcity is a good rule of thiumgb
+                - power supply runs efficently and there' sroom to grow
+Enefry efficiency 
+        +Converting AC ro DC isnb;' tperfect
+        _ some power ius often losit
+        _ heat is generat3ed
+        + Check the efficiuencyt range 
+                _ power supplie ofetn range betwen 80-% and 96%
+                - Condepndon lvolt and reduent power
+        + more effciencty means more DC power
+                _And less heat; save money!
+        +These;s an established  certifcatoin program
+                - Pick the right efficenyt for you rewuiremetnts
+                80 least and 80 plus titniamum is the most effiecent

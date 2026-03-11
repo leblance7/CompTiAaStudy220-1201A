@@ -1,0 +1,124 @@
+Multifunction devices
+o
+                - Printer
+                - SAcanner
+                - Fax
+                - netwrok connection
+                - Ohone line connection
+                - Print from web
+         + many thigns can go wrong and i fix
+Unbloxing a device
+        + these cab be large devies
+                - make sure yuou have enough room
+                - Stay out of walkways
+        + Chewck the area: Power, Netowrk, Accessibility
+Printer devices 
+        + Specific to a pinter model
+                - det this exactly right
+                        - get the rigfh operating syustem drives
+                        - Windwd 10 , or wqindows 11
+        + Gewt the right vbbersion of this device
+                -32 bit drivers are very different tah 54 bit drivers
+        + you can;''t mix and match drive4rs
+                - Very specidic task
+PCL or PostScrpot
+        PCL (Printer Command Lanauge)
+                - Created by Hewlett-Packard
+                - Commonly used across theindustry
+        +PostSCript
+                - Createed by Adobe systems
+                Popular with high en printer
+        + Make sure the drivers match the printer
+                +- PCL printer, PCl driver
+                - PostScript printer, PostSCript driver
+Firmware
+        + the interanl "operating system"
+                - Start the sysem 
+                - Connects to the network
+                - Interprets the inclomikn data sstream
+                - Runs the printing process
+        + UPdate thefirmware to avoid an i ncompatibilites
+                - And prbablyu fic a few bugs
+         + get the last firmware on the new device
+                - Instrall from a stable paltform qand power source
+Wired devcie sharingf
+        = USB 
+                - Common connector
+                        _USB Tyo e, B, A< or USB C everyehte
+                + Ethernet
+                        -RJ45 connector
+        + May include more tha one option
+Wireless device sharing
+        + Bluetooth 
+                - LIMited range
+        + 802.11 infrasturcture mode
+                - may differnt usin gan access point
+        + 802,11 Ad hoc mode
+                - no access point
+                - diecrt link between wireless devices
+Sharing the printer
+        + Printer share 
+                - Printer is connected to acomputer
+                - The computer share the pinrter
+                - Cpomputer needs to be running
+        Print servver
+                + Print directr;lyu to the printer
+                - Jobs are q2ueued on th eprinter
+                - Jobs are managed on the printer
+                - Web-based front end
+                - Client utlity
+Configuration settings
+         + Duplex
+                -Save paper
+                - Pinter on both sdies of the page
+                woithout mauallyu fl;ipping over thepaper
+                - not all printer can do this
+        + Orientation
+                _Portati vs landscpe
+                - paper doesn;t roate
+                - The prindet compensates
+Configuration settings
+        + Tray settings
+                _ Pinter can hjavge multiple traus
+                        _ paom [a[er, letter, etc
+                        _ Chhos the correect tray int heprint dialoog
+        + quality 
+                - resolution
+                - Color, greyscale
+                - Color saving
+Printer secutiry 
+        _ USer authentication
+                _ Eeryone can printer
+                - Serts toights and per,issions
+                - Prininbg, vs, managing thepiunter
+         + BAding 
+                - Authnticat wqhen using thepinter
+                - Your  job doesn';t print until you use your employee badge
+                -Qyucik and easy.
+        + Audiot logs
+                -Cost managment
+                - secuirty montotring
+                - Event Viewe / System Evcents
+                - may be nuilt int the printer or pint server
+        + Secured pintes
+                _ pPinter muyst support secure ptinrt
+                - Define a passcode
+                - use the  passcode at teh printer
+Flatbed scanner
+        + differnt form factors
+        - All-in-one
+        multifunction devie
+        - Standalone flatbed
+        + may incldue and ADF
+                - Automcatic Document Feeder
+                - Multiple pages
+NEtwork scan services
+        + Scan to email
+                _ scanes are setrn toy ou7 ionboxc
+                - LArge scans can fil up your mailbox
+        + SAcan to folder 
+                - Using SMB (Server Messagfe BNLockO
+                - Send to a microsfot sharew
+        +_ Scan to cloufd
+                + Cloud starge4 account
+                - Google Drive, dropbox , etc.
