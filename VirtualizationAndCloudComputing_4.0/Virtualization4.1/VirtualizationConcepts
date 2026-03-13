@@ -1,0 +1,45 @@
+Virtualization
+        + One cooimputer, many operation systems
+                - macOS, Windows 11, Linux Ubuntu, all at the same time
+        + Seperate OS, indepent CPU < memeory, netw2orkm , etc
+                - But really i sone comp[utert
+        + Host-based virtualization
+        - Your normal desktop plus others
+        + Standalone server that host veirual machines
+                - enterpirse-level
+        + Been around since 1967
+               - Ibm mainfr4am virtualization  
+Sandboxing
+        _ Isolated testing enfiroment
+                - No connectrion to the real world or production system
+                        - A technological safe space
+                + Virutalize develope process
+                        - Rey som ecode, break some code
+                                nobody gets hurt.
+                + additronal developement features
+                        - Roll bacl to a previou ssnapshot
+                        - Run additonal systems
+iBuilding the application
+        + developo
+                - Secure enviroment
+                - wreitring code
+                _ Developers test in theit sandboxes
+        + Test
+                - A serperaate virtual enviroment for testing
+                - Still in the developemnt stage
+                - All of the pieces aree put togethewr
+                - Does it all work?
+Legacy software and operatin systems
+        + Need to ruin diffewrnt appication version o nt he same sysem
+                - ruin each applocation instance in a seperate VM
+        + Application only runs on a previous OS version
+                - Create a VM witht eh odler operating system.
+Cross-Platform virualization
+        + WIndows / macOS / Linux doesn' tdo veryting
+                - Each OS has strenchts and weaknesses
+        + Run different operatin sytstems at the same time
+                - Move betweeen each OS  seamlessly
+                - No rebooting
+        + SDave time and resources
+                - ONe physical computer.                
+

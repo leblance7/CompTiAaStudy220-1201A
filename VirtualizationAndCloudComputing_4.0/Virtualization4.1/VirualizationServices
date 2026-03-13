@@ -1,0 +1,103 @@
+The Hypervisor
+        + Virtual Machines manager
+                - Mamagers the virual platform and guest operatins 
+                        systems
+        + may require a CPU that supports virualization
+                - can improve performance
+        + hardware mangement
+                - CPU 
+                - Networking
+                - Security
+Virualization
+        + Virualization
+                - Run many different operatin systems on the same hardware
+        + each application instanfcce has its own operatin system
+                - Adds overhead and complexity
+                - Virtualization is relativey ecxpensive
+                
+Hypervusoir types
+        + Type 1: bare metal
+                + The hyper viror is th eprimary operatin gystem
+                - VMware ESXi, Microsoft Hyper-v, Xen project 
+        + Type 2: Hosted
+                + Hypervisor runs in the exisitng OS
+                        (Windoei, Limux, macOS, etc).
+                - Virtual machines run on top o fcurrent OS
+                -Vmware Workstation, Oracle VirtualBox, Parallels Desktop
+Resource requirements
+        + CPu Processor Support
+                - Intel: Virtulaiztion Techonology (VT)
+                - AMD: AMD-V
+        + memory
+                - Above and beyond host oS requitrements
+        + Disk space- 
+                - Each guest OS has it' sown image
+                - Requyires available sppace to sroe OS an data
+
+        + Network       
+                - COnfigure on each guest OS
+                - Virtual switch
+Netowrk requirements
+        + Most client-side viurtual machine managers have thier own
+                virtuyal (internal) networks
+        + Shared network adddress
+                _ Virtual machin shared the smae3 OIP address as the 
+                        physical host
+                - Used a private IP address internally
+                _ Uses NAT to convert the phyiscval host IP
+        + Bridged network asddress 
+                - the VIM is a decve on the physical network
+        + Private address
+                - The VM does not communicate outside of the 
+                        virtual network.
+Hypervisor security
+        + Hypervior is a sweet spot or the nbad guys
+                - No significant vulnerabilites yet
+        + VM escaping
+                - malware reconizes its on a virutal machine
+                - malware comprmise the hypervisor
+                - malware jjumps from one guest OS to another
+        + Many hosted services are virtual enviroments
+                - Malware on on e customer' server ca gather infromation 
+                        from another
+Guest operatin gystem security
+        + every gust is self-contained
+                - Like a real computer
+         + use tradtitonal security control
+                - Host-basexds firwall
+                - Anti-virus, antispyware
+         + wactch out for roguhr vcirutal machines (VMs)
+                - The attackers try to install their own stsyem
+        + Self contained Vms provided by 3rdf parties can be dangerous
+                - YOu have no idea what's running on there/
+VIrutal Desktop Infreastructre (VDI)
+        + Basic application usuage
+                - Appl;caitoin acutall yrun on a  remote server
+                - TLocal devicve is akeyboard, mouse, and screem
+                - Desktoip aas a Sdervice (DaaS)
+        + Minimal opertatin system on the client
+                - No huge emeory or CPU needs
+        + NBetowrk connectivity
+                - Big nerwork requirement
+                - Everything happems across the wire
+Application containerization
+        + Container
+                - Contains evceryting you need to run an application
+                - Code and  dependienceis
+                - a standardized unit of software
+        + An isolated process in a sandboc
+                - Self-contained
+                - Apps cant interact with each other
+        + Container image
+                - A standard for portability
+                - LIghtwieight, uses the host kernel
+                - Secure separation between applications.
+        Virtual machine, App A, Guest oiperating suytem]
+        Hypervisor] 
+        hardware
+Virtualiztion vs containerized
+        Conatinerized applicatoin:
+                App A, App b , c , d ,e , f, g
+                COntainerization software (E.gf. docket) 
+                Host opertatin gsystem
+                hardware
