@@ -1,0 +1,33 @@
+Sharted resoourvces
+        + Internal  / private cloud
+                - dedicated resouces
+                - Build your own clod
+                - Pay for everythin gup front
+                - NO ongoing costs
+        + Extrernal / public cloud
+                - Share resourrces with a puiblic cloud
+                - Underlying infrastructre owned by a thir-poarty
+                - Cost may be metered or up-front
+Metered and non-metered 
+        + metered utilication
+                - You pay for what you use
+                - Cost to upload- ingress traffic
+                - Cost to store
+                - Cost to download - egress traffic
+        + Non-metered utilization
+                - Yo8u pay for a block of stroage
+                - NO cost to uploadc
+                - No cost to download
+CLould computing chartactreristics
+`       + Elasticity
+                - Seanmlessly scale up and scale down as needed
+                - Cloud enables instant resourcve provisioning
+        + Availability
+                - System are always available
+                - Redundancy provides availbility
+        + File synchronization
+                - Information can be duplicated across cloud locations.
+        + Multitenancy
+                - Many different clients are usin gthe same cloud infrastructure
+        + Multitenancy
+                - Many different clients are usin gthe same cloud infrastructur.e

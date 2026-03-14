@@ -1,0 +1,53 @@
+CLould computing
+        + More tha njust a servcer hostes elsewhre
+                - extend the mangement of applications and servies
+        + Effectiyly unlimited resources
+                - You just have to pay for it
+        + Deployan infrastruicting in minutes
+                - Creatae and tear down as you need
+        _ International scope
+                - deploy inspecidic parts of the world
+        + Use only required resouces
+                - Cost is based on the amount of use.
+Cloud deployment models
+        + Public 
+                - Avcailbel to everyone ober the internet
+        + Private
+                - YOur own virtualized local data center
+        + Hybrid
+                - A mix of public and private.
+        + Community 
+                - Several organizations share the same resources.
+INfeasturcture as a service (laaS)
+        + Sometime called Hardware as a Sercie (HaaS)
+                - Outsource your equipment
+        + You're still responsible for themangement
+                - And for th3e security
+        + Your data is out htere, but more within your control
+        i+ Web server providers
+Software as a servcice(Saas)
+        + on-demand softwaare
+                - No local installation
+                Why manage your own email distribution? or payrool?
+        + Central management of data and applications
+                - Your dta is out htere
+        + A complete application offering
+                - No developing work require
+                - Google Mail, Microsfot 365
+Platform as a sercie(Paas)
+        + No servers, no software, no maintrenance teamn , noi HVAC
+                - Someone else handles the palform, you handle the developement
+         + YOu don' thave direct control of the data, people, or infrastructurte
+                        - Trained security professionals are watchin gyour stuff
+                                - CHoose carefully1
+        + Put the building blocks together
+                -develope yoiur app from what's available on the 
+                        platform
+                - SalesForce.com
+responsibbility matrix example
+        + Info and data, Device, mobiile an dpc, account and identites, applications, network controls, operating ystems, phyusical hosts, phjy8icsla network , physical datacenter  
+
+
+
+        
+
