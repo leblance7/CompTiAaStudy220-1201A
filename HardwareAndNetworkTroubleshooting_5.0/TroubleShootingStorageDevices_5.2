@@ -63,8 +63,63 @@ RAID faulire
                         - POwer issue 
                                 - Communciaton issue
         + Almost always ver obvious
-                - ewrror messages
-                - emaili notifaction
-                -  Adubil ealarms
-        + CAre anaylysi is requires
+                - error messages
+                - email notifaction
+                -  audible alarms
+        + Care anaylysis is requires
                 - Many drivres and different volumes 
+                - Different volumes
+                
+                * Replaceing failing drives with healthy ones
+RAID revcovery
+        + each RAID is different 
+                - Dpn't start pulling drives until uyou check the console!
+        RAID 0 : 2 or more: SIngle dreive falure break sthe aray with data loss
+        RAID 1 | 2 or more; Arrau will owrk as long as one drive opertaional
+        RAID 5 | 3 or more: NEed all drives operational but one
+        RAID 6 | A or more; needs all drives opertaional but two
+        RAID 10 (1 + 0) | 4 or more: CAn lose all but one from each set or mittors
+S.M.A.R.T.
+        + Self- Monitorting, Anaylsis and Reporting Technology
+                - USe third-party untilties
+        + AVOid hardware failure
+                - Look for warning signs
+        + Schedfule dsik chekcs
+        + Warning signs
+                - Replace a drive
+        
+                -BUilt-in t omost drive arrays
+        + MOnitoring .S.M.A.R.T. metric over time
+                - Watch for changes fo rincrementig values
+                - May be part of as NAd or thirt-party software
+        + Automated notifications
+                - Email, Text messages, Console notifications
+        + Resolve the iisue before it's a problem
+                - Get a good backup
+                - Replace the bad drive        
+Extneded read / write times
+        + A lot happens when reading or writitng dta
+                - memory access, communication across thne us
+                spinning drive acces, wrtiting or readin ghte data to the storag deivce, etc
+        + Delays can occcur nayhnwer along theay
+                - need a way to meautre storage deive access
+        + input / output operation sper seonce9iops)
+                - A brod metrri ofg macium p[erformance
+        + Use fo rcomparing stroiage devices
+                - HArd drive: 200 IOPS 
+                -SSD: 1,000,00 IOPS
+Missing drives in OS
+        + OS boots normall
+                - Other drive not shown
+                - Check th BIOS
+        + internal drives
+        - bad drives
+                - Bad drive or disconnected cable
+        + Exrernal drivesd
+                - No power to the drive or bad cable connection
+        + Network shares
+                - Shared drives cann be connected diuring startip[
+                - OPtion to reconnectr at sign-in
+                - Connnected with login script
+Array missing
+        + missing or fault RAID controller
